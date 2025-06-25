@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from sklearn.cluster import KMeans
+from sklearn.linear_model import LinearRegression
 
 # Judul aplikasi
 st.title("Sistem Informasi Clustering dan Prediksi Kasus COVID-19 di Indonesia")
